@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title> learn html
+    </title>
+
+<body>
+    <form>
+        name:<input type="text"></br></br>
+        role : <input type="text"></br></br>
+  date : <input type="date"></br></br>
+  number:<input type="number"></br>
+        </br>
+        email:<input type="email">
+        </br>
+     
+        </br>
+
+        are you elegible <br>
+  yes<input type="checkbox">
+   No<input type="checkbox">
+        <br>
+        <br>
+        gender: <br>Male<input type="radio" name="my gender">
+        <br>Female<input type="radio" name="my gender"></br><br>
+          <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+          
+    </form>
+</body>
+</head>
+
+</html>
