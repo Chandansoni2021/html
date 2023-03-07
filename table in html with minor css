@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+            table,th,td{
+                border: 1px solid;
+                background-color: rgb(99, 245, 255);
+                color: rgb(0, 0, 0);
+                /* border-collapse: collapse; */
+            }
+            th{
+                height:50px;
+                width: 100px;
+            }
+            td{
+                text-align: center;
+                width:100px;
+                height:50px;
+
+            }
+            th:hover {
+                background-color: rgb(43, 119, 119);
+            }
+            tr:hover {
+                background-color: aqua;
+            }
+            td:hover {
+                background-color: rgb(65, 154, 39);
+            }
+        </style>
+</head>
+<body>
+    <h1 class="w">welcome to my table css </h1>
+<table>
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>class</th>
+            <th>capacity</th>
+            <th>roll number</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tr>
+    <td>chandan</td>
+        <td> 12</td>
+           <td> good</td>
+           <td>11</td>
+           </tr>
+           <tr>
+            <td>yash</td>
+                <td> 12</td>
+                   <td> brillient</td>
+                   <td>59</td>
+                   </tr>
+            </table>
+</body>
+
+</html>
