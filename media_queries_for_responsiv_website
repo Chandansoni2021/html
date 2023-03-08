@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>
+      hello 
+    </title>
+    <meta name="viewport" content="width = device-width", initial-scale="1.0">
+    <style>
+.papa{
+    background: #000;
+    width: 100%;
+    height: 40px;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.papa h1{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.papa .tharq,.thar{
+
+    width: 50%;
+    float: left;
+    height: 500px;
+    background: green;
+    border: 2px solid bl;
+}
+.tharq{
+    font-size: 30px;
+    text-align: justify;
+}
+.thar img{
+    width:100%;
+    height: 500px;
+}
+@media (max-width: 786px) {
+    .papa h1{
+        color:white;
+    }
+    .tharq{
+        font-size: 24px;
+    }
+    .thar img{
+        width: 100%;
+        height: 300px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .papa h1{
+        color:rgb(132, 255, 0);
+    }
+    .tharq{
+        font-size: 15px;
+    }
+    .thar img{
+        width: 100%;
+        height: 300px;
+    }
+    .papa .tharq,.thar{
+        width: 100%;
+        height: auto;
+}
+}
+        </style>
+    </head>
+  <body>
+      <div class="papa">
+    <h1>hello welcome home</h1>
+       <div class="tharq">
+       <p>An Write and run HTML, CSS and JavaScript code using our online editor. Our HTML editor updates the webview automatically in real-time as you write code. Give it a try.
+
+        no enduring icon that just keeps on giving, The All-New Thar comes equipped with the iconic design and all new interiors to help you Explore The Impossible. Enquire Now Test …</p>
+       </div>
+       <div class="thar">
+<img src="https://th.bing.com/th?id=OIP.pkzJUss4m_FK2Df5ZJmM4gHaEu&w=312&h=199&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="no">
+         </div>
+      </div>
+    </body>
+</html>
